@@ -73,6 +73,10 @@ export const Flag = styled.div`
   flex-direction: row;
   align-items: center;
   padding: 30px 100px;
+  @media (max-width: 760px) {
+    flex-direction: column;
+    padding: 30px 20px
+  }
 
   img {
     width: 110px;
@@ -81,6 +85,10 @@ export const Flag = styled.div`
     border-radius: 5px;
     background-color: #F9A340;
     margin-right: 30px;
+    @media (max-width: 760px) {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
   }
 `;
 
@@ -89,6 +97,9 @@ export const FlagContent = styled.div`
   flex-direction: column;
   align-items: flex-start;
   height: 95px;
+  @media (max-width: 760px) {
+    align-items: center;
+  }
 `;
 
 export const FlagTitle = styled.p`

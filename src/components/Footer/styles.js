@@ -6,6 +6,9 @@ export const Container = styled.div`
   display: flex;
   flex-direction: column;
   background-color: #C4C4C4;
+  @media (max-width: 760px) {
+    height: 100%;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -16,6 +19,9 @@ export const Wrapper = styled.div`
   padding: 20px 0;
   justify-content: space-between;
   align-items: center;
+  @media (max-width: 760px) {
+    flex-direction: column;
+  }
 
   p {
     width: 210px;
@@ -37,6 +43,10 @@ export const Secretary = styled.div`
 
   >p {
     width: 150px;
+  }
+
+  @media (max-width: 760px) {
+    padding: 25px 00px
   }
 `;
 

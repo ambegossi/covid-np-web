@@ -14,7 +14,7 @@ const Header = () => {
         <Title>
           Covid-19 Nova Prata - RS
         </Title>
-      <Right/>
+        <Right/>
       </Wrapper>
     </Container>
   )
