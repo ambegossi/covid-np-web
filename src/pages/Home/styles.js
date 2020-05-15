@@ -21,7 +21,7 @@ export const Container = styled.div`
     border-radius: 4px;
     color: #fff;
     border: none;
-    transition: background 0.2s;
+    transition: background 0.2s;    
 
     &:hover {
       background: ${darken(0.03, '#F9A340')};

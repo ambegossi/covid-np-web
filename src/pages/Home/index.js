@@ -12,7 +12,6 @@ import {
   FlagContent,
   FlagTitle,
   FlagDescription,
-  DecreeButton,
 } from './styles';
 
 const IndexPage = () => (
@@ -44,8 +43,8 @@ const IndexPage = () => (
           </FlagDescription>
         </FlagContent>
       </Flag>
-
-      <a href="http://novaprata.rs.gov.br/" target="_blank">Decreto 8085/2020</a>
+      
+      <a href="http://novaprata.rs.gov.br/">Decreto 8085/2020</a>
 
       <p>Proteja-se!</p>
       <p>#UseMáscara</p>
