@@ -66,7 +66,7 @@ export const CaseText = styled.p`
 
 export const Flag = styled.div`
   width: 100%;
-  height: 65;
+  height: 165px;
   background-color: #C4C4C4;
   border-radius: 0 0 10px 10px;
   display: flex;
@@ -75,7 +75,8 @@ export const Flag = styled.div`
   padding: 30px 100px;
   @media (max-width: 760px) {
     flex-direction: column;
-    padding: 30px 20px
+    padding: 30px 20px;
+    height: 285px;
   }
 
   img {

@@ -31,6 +31,10 @@ export const Logo = styled.div`
 
 export const Title = styled.h1`
   color: #fff;
+  text-align: center;
+  @media (max-width: 760px) {
+    font-size: 22px;
+  }
 `;
 
 export const Right = styled.div`
