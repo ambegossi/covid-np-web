@@ -9,7 +9,7 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
   display: flex;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
@@ -23,6 +23,7 @@ export const Logo = styled.div`
 `;
 
 export const Title = styled.h1`
+  color: #fff;
 `;
 
 export const Right = styled.div`
