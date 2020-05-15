@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react';
 
 import flag from '../../images/flag.svg';
 
