@@ -31,7 +31,7 @@ export const Container = styled.div`
   >p {
     font-size: 16px;
     font-weight: bold;
-    color: #4823C2;
+    color: #1068FF;
     padding: 3px 0;
   }
 `;
