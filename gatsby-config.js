@@ -10,6 +10,13 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
     {
+      resolve: 'gatsby-plugin-og-images',
+      options: {
+        template: 'og-covid-np.png',
+        domain: 'https://covidnovaprata.netlify.app/',
+      }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
