@@ -18,7 +18,7 @@ import {
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Covid-19" />
         <Container>
       <Cases>
         <CaseItem>
