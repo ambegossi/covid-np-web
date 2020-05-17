@@ -46,7 +46,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `https://covidnovaprata.netlify.app/images/og-covid-np.png`,
+          content: `https://covidnovaprata.netlify.app/icons/og-covid-np.png`,
         },
         {
           name: `twitter:card`,
