@@ -3,8 +3,6 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-import socialBanner from '../images/teste.jpg'
-
 const SEO = ({ description, lang, meta, title }) => {
   const { site } = useStaticQuery(
     graphql`
@@ -43,12 +41,20 @@ const SEO = ({ description, lang, meta, title }) => {
           content: metaDescription,
         },
         {
+          propery: `og:url`,
+          content: `https://covidnovaprata.netlify.app/`,
+        },
+        {
+          propery: `fb:app_id`,
+          content: `249542356288185`,
+        },
+        {
           property: `og:type`,
           content: `website`,
         },
         {
           property: `og:image`,
-          content: {socialBanner},
+          content: `http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg`,
         },
         {
           name: `twitter:card`,
