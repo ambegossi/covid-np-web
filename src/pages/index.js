@@ -22,11 +22,11 @@ const IndexPage = () => (
         <Container>
       <Cases>
         <CaseItem>
-          <CaseNumber>16</CaseNumber>
+          <CaseNumber>17</CaseNumber>
           <CaseText>Casos confirmados</CaseText>
         </CaseItem>
         <CaseItem>
-          <CaseNumber>04</CaseNumber>
+          <CaseNumber>08</CaseNumber>
           <CaseText>Casos curados</CaseText>
         </CaseItem>
         <CaseItem>
@@ -34,7 +34,7 @@ const IndexPage = () => (
           <CaseText>Casos em investigação</CaseText>
         </CaseItem>
         <CaseItem>
-          <CaseNumber>45</CaseNumber>
+          <CaseNumber>58</CaseNumber>
           <CaseText>Casos descartados</CaseText>
         </CaseItem>
       </Cases>

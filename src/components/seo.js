@@ -54,7 +54,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `http://static01.nyt.com/images/2015/02/19/arts/international/19iht-btnumbers19A/19iht-btnumbers19A-facebookJumbo-v2.jpg`,
+          content: `https://i.ibb.co/Pr5dB0v/og-covid-np.jpg`,
         },
         {
           name: `twitter:card`,
