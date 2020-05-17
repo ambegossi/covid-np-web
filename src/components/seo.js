@@ -46,7 +46,7 @@ const SEO = ({ description, lang, meta, title }) => {
         },
         {
           property: `og:image`,
-          content: `https://i.ibb.co/5M150w6/og-covid-np.png`,
+          content: `https://i.ibb.co/XVx1YMj/og-covid-np.jpg`,
         },
         {
           name: `twitter:card`,
