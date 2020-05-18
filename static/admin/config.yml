@@ -21,3 +21,4 @@ collections:
           - {label: Casos Descartados, name: discarded, widget: number}
           - {label: Cor da Bandeira, name: flag_color, widget: select, options: ["amarela", "laranja", "vermelha", "preta"]}
           - {label: Título da Bandeira, name: flag_title, widget: select, options: ["Bandeira amarela - Risco baixo", "Bandeira laranja - Risco médio", "Bandeira vermelha - Risco alto", "Bandeira preta - Risco altíssimo"]}
+          - {label: Descrição da Bandeira, name: flag_description, widget: text}
