@@ -4,6 +4,9 @@ backend:
   branch: master 
   site_domain: https://covidnovaprata.netlify.app/
 
+media_folder: static/assets
+public_folder: assets
+
 collections:
   - name: "pages"
     label: "Páginas"
