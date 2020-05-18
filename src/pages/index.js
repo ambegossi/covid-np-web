@@ -31,15 +31,15 @@ const IndexPage = (props) => {
             <CaseText>Casos confirmados</CaseText>
           </CaseItem>
           <CaseItem>
-            <CaseNumber>08</CaseNumber>
+            <CaseNumber>{data.cured}</CaseNumber>
             <CaseText>Casos curados</CaseText>
           </CaseItem>
           <CaseItem>
-            <CaseNumber>03</CaseNumber>
+            <CaseNumber>{data.investigation}</CaseNumber>
             <CaseText>Casos em investigação</CaseText>
           </CaseItem>
           <CaseItem>
-            <CaseNumber>58</CaseNumber>
+            <CaseNumber>{data.discarded}</CaseNumber>
             <CaseText>Casos descartados</CaseText>
           </CaseItem>
         </Cases>
@@ -73,6 +73,9 @@ export const query = graphql`
           childMarkdownRemark {
             frontmatter {
               confirmed
+              cured
+              investigation
+              discarded
           }
         }
       }
