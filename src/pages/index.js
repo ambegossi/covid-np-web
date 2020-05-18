@@ -47,7 +47,7 @@ const IndexPage = (props) => {
         <Flag>
           <FlagImage color={data.flag_color} src={flag} alt="Bandeira de distanciamento"/>
           <FlagContent>
-            <FlagTitle>Bandeira laranja - Risco médio</FlagTitle>
+            <FlagTitle>{data.flag_title}</FlagTitle>
             <FlagDescription>A região encontra-se em um dos dois cenários: 1- Média capacidade do sistema de saúde e 
               baixa propagação do vírus ou 2- Alta capacidade do sistema de saúde e média propagação do vírus.
             </FlagDescription>
@@ -78,6 +78,7 @@ export const query = graphql`
               investigation
               discarded
               flag_color
+              flag_title
           }
         }
       }
