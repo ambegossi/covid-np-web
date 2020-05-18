@@ -2,10 +2,10 @@ backend:
   name: github
   repo: ambegossi/covid-np-web
   branch: master 
-  site_domain: https://covidnovaprata.netlify.app/
+  site_domain: covidnovaprata.netlify.app
 
-media_folder: static/assets
-public_folder: assets
+media_folder: 'static/assets'
+public_folder: 'assets'
 
 collections:
   - name: "pages"
