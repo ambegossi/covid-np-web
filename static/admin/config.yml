@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: ambegossi/covid-np-web
+  branch: master 
+  site_domain: https://covidnovaprata.netlify.app/
+
+collections:
+  - name: "pages"
+    label: "Páginas"
+    files:
+      - label: "Principal"
+        name: "home"
+        file: "content/home.md"
+        fields: 
+          - {label: Confirmados, name: confirmed, widget: string}
