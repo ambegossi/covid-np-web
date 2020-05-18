@@ -77,7 +77,7 @@ export const query = graphql`
               cured
               investigation
               discarded
-              flag
+              flag_color
           }
         }
       }
