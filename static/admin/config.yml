@@ -19,3 +19,4 @@ collections:
           - {label: Curados, name: cured, widget: number}
           - {label: Investigação, name: investigation, widget: number}
           - {label: Descartados, name: discarded, widget: number}
+          - {label: Cor da Bandeira, name: flag_color, widget: select, options: ["amarela", "laranja", "vermelha", "preta"]}

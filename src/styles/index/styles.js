@@ -78,18 +78,20 @@ export const Flag = styled.div`
     padding: 30px 20px;
     height: 285px;
   }
+`;
 
-  img {
-    width: 110px;
-    height: 95px;
-    padding: 20px 20px;
-    border-radius: 5px;
-    background-color: #F9A340;
-    margin-right: 30px;
-    @media (max-width: 760px) {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
+export const FlagImage = styled.img`
+  width: 110px;
+  height: 95px;
+  padding: 20px 20px;
+  border-radius: 5px;
+  background-color: ${props => props.color ==='laranja' ? "#F9A340" : 
+  props.color==='amarela' ? "#FFCF03" : props.color==='vermelha' ? "#CC2726" : 
+  props.color==='preta' ? "#373435" : "#fff"};
+  margin-right: 30px;
+  @media (max-width: 760px) {
+    margin-right: 0;
+    margin-bottom: 10px;
   }
 `;
 

@@ -13,6 +13,7 @@ import {
   CaseNumber, 
   CaseText, 
   Flag, 
+  FlagImage,
   FlagContent,
   FlagTitle,
   FlagDescription,
@@ -44,7 +45,7 @@ const IndexPage = (props) => {
           </CaseItem>
         </Cases>
         <Flag>
-          <img src={flag} alt="Bandeira de distanciamento"/>
+          <FlagImage color={data.flag_color} src={flag} alt="Bandeira de distanciamento"/>
           <FlagContent>
             <FlagTitle>Bandeira laranja - Risco médio</FlagTitle>
             <FlagDescription>A região encontra-se em um dos dois cenários: 1- Média capacidade do sistema de saúde e 
@@ -76,6 +77,7 @@ export const query = graphql`
               cured
               investigation
               discarded
+              flag
           }
         }
       }
