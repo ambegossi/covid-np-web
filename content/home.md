@@ -1,6 +1,6 @@
 ---
 confirmed: 17
-cured: 08
-investigation: 03
-discarded: 58
+cured: 8
+investigation: 3
+discarded: 60
 ---
