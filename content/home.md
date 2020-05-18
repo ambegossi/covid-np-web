@@ -1,7 +1,7 @@
 ---
 confirmed: 17
-cured: 08
-investigation: 03
+cured: 8
+investigation: 3
 discarded: 58
-flag_color: 'laranja'
+flag_color: preta
 ---
