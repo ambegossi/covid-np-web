@@ -15,4 +15,4 @@ collections:
         name: "home"
         file: "content/home.md"
         fields: 
-          - {label: Confirmados, name: confirmed, widget: string}
+          - {label: Confirmados, name: confirmed, widget: number}
