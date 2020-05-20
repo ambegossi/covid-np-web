@@ -1,7 +1,7 @@
 ---
-confirmed: 17
-cured: 8
-investigation: 3
+confirmed: 18
+cured: 9
+investigation: 1
 discarded: 58
 flag_color: laranja
 flag_title: Bandeira laranja - Risco médio
